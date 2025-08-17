@@ -1,0 +1,70 @@
+ body {
+    text-align:center;
+ }
+ h1{
+    text-align: center;
+    color: #333;
+ }
+ h3{
+    text-align: center;
+    color: #666;
+ }
+
+ .btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border : 7px solid black;
+    margin: 20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+body.game-over {
+    background-color: red;
+}
+
+
+.red{
+    background-color: #d95980;
+}  
+.green{
+    background-color: #63aac0;
+}
+.orange{
+    background-color: #f99b45;
+}
+.blue{
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+}
+
+/* Ensures the background takes up the full screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Add transition for smooth background change */
+body {
+    transition: background-color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+/* Class added when game is over */
+body.game-over {
+    background-color: red;
+    font-size: 25px ;
+    
+}
+
+
